@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: billing
-        image: oteamcr.azurecr.io/mvne/billing:1.0.0
+        image: oteamcr.azurecr.io/mvne/billing:20250318085118
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
