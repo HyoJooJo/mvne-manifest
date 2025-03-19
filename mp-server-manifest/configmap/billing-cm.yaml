@@ -6,9 +6,9 @@ metadata:
 data:
   SERVER_PORT: "8081"
   KOS_ADAPTER_BASE_URL: "http://kos-adapter-svc"
-  DB_HOST: "postgresql-billing"
+  DB_HOST: "ps-billing-postgresql"
   DB_PORT: "5432"
-  DB_NAME: "oteamdb"
+  DB_NAME: "billingdb"
   JPA_DDL_AUTO: "update"
   JPA_SHOW_SQL: "false"
   REDIS_HOST: "redis-master"

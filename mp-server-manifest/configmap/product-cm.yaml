@@ -6,9 +6,9 @@ metadata:
 data:
   SERVER_PORT: "8082"
   KOS_ADAPTER_BASE_URL: "http://kos-adapter-svc"
-  DB_HOST: "postgresql-product"
+  DB_HOST: "ps-product-postgresql"
   DB_PORT: "5432"
-  DB_NAME: "oteamdb"
+  DB_NAME: "customerdb"
   JPA_DDL_AUTO: "update"
   JPA_SHOW_SQL: "false"
   WORKER_CORE_POOL_SIZE: "2"
