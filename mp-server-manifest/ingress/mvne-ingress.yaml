@@ -4,6 +4,7 @@ metadata:
   name: mvne-ingress
   namespace: oteam-mvne-ns
 spec:
+  ingressClassName: nginx
   rules:
   - http:
       paths:
