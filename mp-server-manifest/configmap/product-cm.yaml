@@ -8,7 +8,7 @@ data:
   KOS_ADAPTER_BASE_URL: "http://kos-adapter-svc"
   DB_HOST: "ps-product-postgresql"
   DB_PORT: "5432"
-  DB_NAME: "customerdb"
+  DB_NAME: "productdb"
   JPA_DDL_AUTO: "update"
   JPA_SHOW_SQL: "false"
   WORKER_CORE_POOL_SIZE: "2"
