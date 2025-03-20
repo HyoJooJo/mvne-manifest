@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mp-client
-        image: oteamcr.azurecr.io/mvne/mp-client:20250320020334
+        image: oteamcr.azurecr.io/mvne/mp-client:20250320021832
         imagePullPolicy: Always
         ports:
         - containerPort: 18080
