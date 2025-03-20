@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: product
-        image: oteamcr.azurecr.io/mvne/product:20250319055410
+        image: oteamcr.azurecr.io/mvne/product:20250320055910
         imagePullPolicy: Always
         ports:
         - containerPort: 8082
