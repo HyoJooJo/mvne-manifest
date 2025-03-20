@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: kos-adapter
-        image: oteamcr.azurecr.io/mvne/kos-adapter:20250319122122
+        image: oteamcr.azurecr.io/mvne/kos-adapter:20250320015432
         imagePullPolicy: Always
         ports:
         - containerPort: 8083
