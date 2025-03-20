@@ -3,6 +3,10 @@ kind: Deployment
 metadata:
   name: product
   namespace: oteam-mvne-ns
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/path: "/actuator/prometheus"
+    prometheus.io/port: "8082"  # **application.yml의 server.port와 동일해야 함**
 spec:
   replicas: 1
   selector:
@@ -59,8 +63,3 @@ spec:
           failureThreshold: 3
 
 
-metadata:
-  annotations:
-    prometheus.io/scrape: "true"
-    prometheus.io/path: "/actuator/prometheus"
-    prometheus.io/port: "8082"  # **application.yml의 server.port와 동일해야 함**

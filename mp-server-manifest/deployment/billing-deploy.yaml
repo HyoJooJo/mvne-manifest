@@ -3,6 +3,10 @@ kind: Deployment
 metadata:
   name: billing
   namespace: oteam-mvne-ns
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/path: "/actuator/prometheus"
+    prometheus.io/port: "8081"  # **application.yml의 server.port와 동일해야 함**
 spec:
   replicas: 1
   selector:
@@ -58,8 +62,3 @@ spec:
           timeoutSeconds: 5
           failureThreshold: 3
 
-metadata:
-  annotations:
-    prometheus.io/scrape: "true"
-    prometheus.io/path: "/actuator/prometheus"
-    prometheus.io/port: "8081"  # **application.yml의 server.port와 동일해야 함**
