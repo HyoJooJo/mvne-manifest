@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: kos-mock
-        image: oteamcr.azurecr.io/mvne/kos-mock:20250320065824
+        image: oteamcr.azurecr.io/mvne/kos-mock:20250320070328
         imagePullPolicy: Always
         ports:
         - containerPort: 8084
